@@ -12,3 +12,7 @@ def about(request):
 def contact(request):
     # return HttpResponse("hello, this is a contact page of my website.")
     return render(request,'website/contact.html')
+
+def profile(request):
+    return render(request,'website/profile.html')
+
